@@ -209,7 +209,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           // ignore: use_build_context_synchronously
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
-                              backgroundColor: Color(0xFF7CA0CA),
+                              backgroundColor: Colors.red,
                               content: Text(
                                 'No user found for that email.',
                               ),
@@ -219,7 +219,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           // ignore: use_build_context_synchronously
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
-                              backgroundColor: Color(0xFF7CA0CA),
+                              backgroundColor: Colors.red,
                               content: Text(
                                 'Wrong password provided for that user.',
                               ),
