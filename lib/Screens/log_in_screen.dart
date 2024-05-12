@@ -229,7 +229,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           // ignore: use_build_context_synchronously
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
-                              backgroundColor: const Color(0xFF7CA0CA),
+                              backgroundColor: Colors.red,
                               content: Text(
                                 e.toString(),
                               ),

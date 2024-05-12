@@ -267,7 +267,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                               // ignore: use_build_context_synchronously
                               ScaffoldMessenger.of(context).showSnackBar(
                                 const SnackBar(
-                                  backgroundColor: Color(0xFF7CA0CA),
+                                  backgroundColor: Colors.red,
                                   content: Text(
                                     'The password provided is too weak.',
                                   ),
@@ -277,7 +277,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                               // ignore: use_build_context_synchronously
                               ScaffoldMessenger.of(context).showSnackBar(
                                 const SnackBar(
-                                  backgroundColor: Color(0xFF7CA0CA),
+                                  backgroundColor: Colors.red,
                                   content: Text(
                                     'The account already exists for that email.',
                                   ),
@@ -288,7 +288,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                             // ignore: use_build_context_synchronously
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
-                                backgroundColor: const Color(0xFF7CA0CA),
+                                backgroundColor: Colors.red,
                                 content: Text(
                                   e.toString(),
                                 ),
@@ -301,7 +301,7 @@ class _CreateAccountScreenState extends State<CreateAccountScreen> {
                           log('Password doesn\'t match.');
                           ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
-                              backgroundColor: Color(0xFF7CA0CA),
+                              backgroundColor: Colors.red,
                               content: Text(
                                 'Password doesn\'t match.',
                               ),
